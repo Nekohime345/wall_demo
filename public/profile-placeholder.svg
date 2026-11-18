@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 560" role="img" aria-labelledby="title">
+  <title id="title">Replaceable profile photo placeholder</title>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#dff5ff"/>
+      <stop offset="1" stop-color="#84c8e7"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#f8fcff"/>
+      <stop offset="1" stop-color="#dbeaf3"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="560" fill="url(#sky)"/>
+  <circle cx="383" cy="118" r="38" fill="#fff5cf" opacity=".8"/>
+  <path d="M0 400c89-61 145-30 217 6 83 42 167 30 263-39v193H0z" fill="#9bd5e9" opacity=".55"/>
+  <path d="M79 560c10-119 69-194 161-194s152 75 161 194z" fill="url(#shirt)"/>
+  <path d="M173 367l67 74 68-74 29 27-44 80H187l-43-80z" fill="#fff" opacity=".9"/>
+  <ellipse cx="240" cy="236" rx="104" ry="126" fill="#f1c6a6"/>
+  <path d="M134 226c-10-99 39-153 113-153 70 0 108 48 102 131-33-4-62-27-82-58-22 34-70 56-133 59z" fill="#36475a"/>
+  <path d="M145 208c17-40 49-54 83-63 39 22 69 35 117 39l4 57c-1 77-46 131-109 131-63 0-105-55-107-132z" fill="#f1c6a6"/>
+  <path d="M192 229c10-8 24-8 34-1M261 228c11-8 25-8 35 0" fill="none" stroke="#594238" stroke-linecap="round" stroke-width="7"/>
+  <ellipse cx="211" cy="246" rx="6" ry="8" fill="#293747"/>
+  <ellipse cx="278" cy="246" rx="6" ry="8" fill="#293747"/>
+  <path d="M218 302c14 14 32 14 46 0" fill="none" stroke="#a65f55" stroke-linecap="round" stroke-width="6"/>
+</svg>
