@@ -22,7 +22,8 @@ function subscribeToAuthor(onChange) {
 }
 
 function getStoredAuthor() {
-  return localStorage.getItem(AUTHOR_STORAGE_KEY) || ''
+  if (typeof window === 'undefined') return ''
+  return window.localStorage.getItem(AUTHOR_STORAGE_KEY) || ''
 }
 
 function saveAuthor(author) {
@@ -34,7 +35,8 @@ const SUPABASE_KEY = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process
 const supabase = SUPABASE_URL && SUPABASE_KEY ? createClient(SUPABASE_URL, SUPABASE_KEY) : null
 
 function readLocalPosts() {
-  try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]') } catch { return [] }
+  if (typeof window === 'undefined') return []
+  try { return JSON.parse(window.localStorage.getItem(STORAGE_KEY) || '[]') } catch { return [] }
 }
 
 function relativeTime(date) {
